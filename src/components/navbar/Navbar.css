@@ -1,0 +1,18 @@
+/** @format */
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100vw;
+  background-color: rgb(21, 21, 21);
+  padding: 13px;
+}
+.nav .active {
+  font-weight: 500;
+  color: white;
+}
+.nav a {
+  color: rgb(192, 189, 189);
+  text-decoration: none;
+}
